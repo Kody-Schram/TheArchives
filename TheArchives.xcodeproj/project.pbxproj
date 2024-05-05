@@ -98,6 +98,7 @@
 		D1F055C42BE81F7E00B9AA4C /* TheArchives */ = {
 			isa = PBXGroup;
 			children = (
+				D1F055F42BE8232900B9AA4C /* Views */,
 				D1F055C52BE81F7E00B9AA4C /* TheArchivesApp.swift */,
 				D1F055C72BE81F7E00B9AA4C /* ContentView.swift */,
 				D1F055C92BE81F8000B9AA4C /* Assets.xcassets */,
@@ -131,6 +132,13 @@
 				D1F055E72BE81F8100B9AA4C /* TheArchivesUITestsLaunchTests.swift */,
 			);
 			path = TheArchivesUITests;
+			sourceTree = "<group>";
+		};
+		D1F055F42BE8232900B9AA4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

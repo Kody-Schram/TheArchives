@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct TheArchivesApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistenceController = PersistenceController.instance
 
     var body: some Scene {
         WindowGroup {
