@@ -12,6 +12,13 @@ struct LibraryView: View {
     @StateObject private var viewModel = LibraryViewModel()
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            List(viewModel.books) { book in
+                Text("Book")
+            }
+        }
+        .onAppear {
+            viewModel.loadLibrary()
+        }
     }
 }
