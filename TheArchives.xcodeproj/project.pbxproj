@@ -22,6 +22,7 @@
 		D1F056002BE839DB00B9AA4C /* BookExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F055FF2BE839DB00B9AA4C /* BookExtension.swift */; };
 		D1F056022BE83A9A00B9AA4C /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F056012BE83A9A00B9AA4C /* Chapter.swift */; };
 		D1F056042BE83AC800B9AA4C /* ChapterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F056032BE83AC800B9AA4C /* ChapterExtension.swift */; };
+		D1F056062BE83F0E00B9AA4C /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F056052BE83F0E00B9AA4C /* BookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D1F055FF2BE839DB00B9AA4C /* BookExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookExtension.swift; sourceTree = "<group>"; };
 		D1F056012BE83A9A00B9AA4C /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		D1F056032BE83AC800B9AA4C /* ChapterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterExtension.swift; sourceTree = "<group>"; };
+		D1F056052BE83F0E00B9AA4C /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				D1F055F82BE82D6100B9AA4C /* LibraryView.swift */,
 				D1F055FA2BE8396900B9AA4C /* LibraryViewModel.swift */,
+				D1F056052BE83F0E00B9AA4C /* BookView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				D1F055F92BE82D6100B9AA4C /* LibraryView.swift in Sources */,
 				D1F055FB2BE8396900B9AA4C /* LibraryViewModel.swift in Sources */,
 				D1F056002BE839DB00B9AA4C /* BookExtension.swift in Sources */,
+				D1F056062BE83F0E00B9AA4C /* BookView.swift in Sources */,
 				D1F055C62BE81F7E00B9AA4C /* TheArchivesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
